@@ -107,8 +107,7 @@ A curated collection of resources for learning about Agentic AI, Semantic Kernel
 - [Prompt Flow](https://microsoft.github.io/promptflow/) - LLM application development tool integrated with Azure AI Foundry
 
 ### Testing Tools
-- [Prompt Flow](https://microsoft.github.io/promptflow/) - LLM application development
-- [Azure AI Studio](https://azure.microsoft.com/en-us/products/ai-studio/)
+- [Azure AI Foundry](https://azure.microsoft.com/en-us/products/ai-studio/) - Comprehensive AI development and testing platform
 
 ## 📊 Use Case Examples
 
