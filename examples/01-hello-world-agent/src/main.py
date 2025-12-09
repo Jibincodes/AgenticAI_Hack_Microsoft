@@ -14,7 +14,6 @@ from dotenv import load_dotenv
 import semantic_kernel as sk
 from semantic_kernel.connectors.ai.open_ai import AzureChatCompletion, OpenAIChatCompletion
 from semantic_kernel.contents import ChatHistory
-from semantic_kernel.prompt_template import PromptTemplateConfig
 
 # Load environment variables from .env file
 load_dotenv()
