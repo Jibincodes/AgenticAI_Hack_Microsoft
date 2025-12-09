@@ -1,10 +1,10 @@
 # Agentic AI Hack - Microsoft Zurich
 
-Welcome to the **Agentic AI Hack** repository! This hackathon is organized by **Microsoft Zurich** and focuses on exploring the capabilities of **Agentic AI** using the **Semantic Kernel framework**.
+Welcome to the **Agentic AI Hack** repository! This hackathon is organized by **Microsoft Zurich** and focuses on exploring the capabilities of **Agentic AI** using cutting-edge Microsoft technologies including **Semantic Kernel**, **Azure AI Foundry**, and **Microsoft Agent Framework**.
 
 ## 🎯 About the Hack
 
-This repository serves as a central hub for information, resources, and projects related to the Agentic AI Hack. The event emphasizes building intelligent agents that can autonomously perform tasks, make decisions, and interact with various systems using Microsoft's Semantic Kernel framework.
+This repository serves as a central hub for information, resources, and projects related to the Agentic AI Hack. The event emphasizes building intelligent agents that can autonomously perform tasks, make decisions, and interact with various systems using Microsoft's comprehensive AI platform and frameworks.
 
 ### What is Agentic AI?
 
@@ -24,6 +24,32 @@ Agentic AI refers to artificial intelligence systems that can:
 - **Planning capabilities** - Automatically create and execute plans
 - **Multi-language support** - Available for C#, Python, and Java
 
+### What is Azure AI Foundry?
+
+[Azure AI Foundry](https://azure.microsoft.com/en-us/products/ai-studio) (formerly Azure AI Studio) is a comprehensive platform for building, evaluating, and deploying AI applications. It provides:
+- **Unified development environment** - Build AI solutions with a single, integrated platform
+- **Model catalog** - Access to cutting-edge AI models from OpenAI, Meta, Mistral, and more
+- **Prompt flow** - Design, test, and iterate on prompt-based applications
+- **Evaluation tools** - Assess AI model performance with built-in metrics
+- **Deployment at scale** - Deploy AI applications with enterprise-grade security and compliance
+- **RAG capabilities** - Build retrieval-augmented generation applications with your own data
+
+### What is Microsoft Agent Framework?
+
+The [Microsoft Agent Framework](https://github.com/microsoft/autogen) (also known as AutoGen) is a framework for building multi-agent AI systems. Key features include:
+- **Multi-agent conversations** - Enable multiple AI agents to collaborate and solve complex tasks
+- **Agent specialization** - Create agents with specific roles and capabilities
+- **Human-in-the-loop** - Integrate human oversight and decision-making into agent workflows
+- **Tool integration** - Agents can use external tools, APIs, and code execution
+- **Flexible orchestration** - Support for various conversation patterns and agent interactions
+- **Built on proven technology** - Leverages OpenAI's APIs and integrates with Azure services
+
+The framework is particularly useful for:
+- Complex problem-solving requiring multiple perspectives
+- Automated code generation and debugging
+- Multi-step research and analysis tasks
+- Conversational AI with specialized domain experts
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -41,12 +67,24 @@ Agentic AI refers to artificial intelligence systems that can:
 
 #### For Python
 ```bash
+# Semantic Kernel
 pip install semantic-kernel
+
+# Microsoft Agent Framework (AutoGen)
+pip install pyautogen
+
+# Azure AI SDK (for Azure AI Foundry integration)
+pip install azure-ai-inference azure-identity
 ```
 
 #### For C#
 ```bash
+# Semantic Kernel
 dotnet add package Microsoft.SemanticKernel
+
+# Azure AI SDK
+dotnet add package Azure.AI.OpenAI
+dotnet add package Azure.Identity
 ```
 
 #### For Java
@@ -91,12 +129,19 @@ dotnet add package Microsoft.SemanticKernel
 ### Official Documentation
 - [Semantic Kernel Documentation](https://learn.microsoft.com/en-us/semantic-kernel/)
 - [Semantic Kernel GitHub](https://github.com/microsoft/semantic-kernel)
+- [Azure AI Foundry Documentation](https://learn.microsoft.com/en-us/azure/ai-studio/)
+- [Azure AI Foundry Portal](https://ai.azure.com/)
+- [Microsoft Agent Framework (AutoGen)](https://microsoft.github.io/autogen/)
+- [AutoGen GitHub Repository](https://github.com/microsoft/autogen)
 - [Azure OpenAI Service](https://azure.microsoft.com/en-us/products/ai-services/openai-service)
 
 ### Tutorials and Guides
 - [Semantic Kernel Quick Start](https://learn.microsoft.com/en-us/semantic-kernel/get-started/quick-start-guide)
 - [Building AI Agents](https://learn.microsoft.com/en-us/semantic-kernel/agents/)
 - [Plugin Development](https://learn.microsoft.com/en-us/semantic-kernel/agents/plugins/)
+- [Azure AI Foundry Getting Started](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/create-projects)
+- [AutoGen Tutorial](https://microsoft.github.io/autogen/docs/tutorial/introduction)
+- [Building Multi-Agent Systems](https://microsoft.github.io/autogen/docs/tutorial/conversation-patterns)
 
 ### Community
 - [Semantic Kernel Discord](https://aka.ms/SKDiscord)
@@ -118,8 +163,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🎉 Event Information
 
 **Location**: Microsoft Zurich  
-**Focus**: Agentic AI and Semantic Kernel Framework  
-**Goal**: Build intelligent, autonomous AI agents that can interact with the world
+**Focus**: Agentic AI, Semantic Kernel Framework, Azure AI Foundry, and Microsoft Agent Framework  
+**Goal**: Build intelligent, autonomous AI agents that can interact with the world using cutting-edge Microsoft AI technologies
 
 ---
 

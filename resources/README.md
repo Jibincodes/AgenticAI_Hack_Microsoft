@@ -1,6 +1,6 @@
 # Resources
 
-A curated collection of resources for learning about Agentic AI and Semantic Kernel.
+A curated collection of resources for learning about Agentic AI, Semantic Kernel, Azure AI Foundry, and Microsoft Agent Framework.
 
 ## 📖 Official Documentation
 
@@ -9,6 +9,20 @@ A curated collection of resources for learning about Agentic AI and Semantic Ker
 - [Getting Started Guide](https://learn.microsoft.com/en-us/semantic-kernel/get-started/quick-start-guide)
 - [Concepts and Architecture](https://learn.microsoft.com/en-us/semantic-kernel/concepts/)
 - [API Reference](https://learn.microsoft.com/en-us/semantic-kernel/api-reference/)
+
+### Azure AI Foundry
+- [Azure AI Foundry Overview](https://learn.microsoft.com/en-us/azure/ai-studio/)
+- [Azure AI Foundry Portal](https://ai.azure.com/)
+- [Getting Started with Azure AI Foundry](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/create-projects)
+- [Build with Prompt Flow](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/prompt-flow)
+- [Model Catalog](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/model-catalog)
+
+### Microsoft Agent Framework (AutoGen)
+- [AutoGen Documentation](https://microsoft.github.io/autogen/)
+- [AutoGen GitHub Repository](https://github.com/microsoft/autogen)
+- [Getting Started with AutoGen](https://microsoft.github.io/autogen/docs/Getting-Started)
+- [Multi-Agent Conversation Patterns](https://microsoft.github.io/autogen/docs/tutorial/conversation-patterns)
+- [AutoGen Studio](https://microsoft.github.io/autogen/docs/autogen-studio/getting-started)
 
 ### Azure OpenAI
 - [Azure OpenAI Service](https://azure.microsoft.com/en-us/products/ai-services/openai-service)
@@ -28,6 +42,9 @@ A curated collection of resources for learning about Agentic AI and Semantic Ker
 - [Creating Plugins](https://learn.microsoft.com/en-us/semantic-kernel/agents/plugins/)
 - [Working with Memory](https://learn.microsoft.com/en-us/semantic-kernel/memories/)
 - [Using Planners](https://learn.microsoft.com/en-us/semantic-kernel/agents/planners/)
+- [Azure AI Foundry Tutorials](https://learn.microsoft.com/en-us/azure/ai-studio/tutorials/)
+- [AutoGen Tutorial Series](https://microsoft.github.io/autogen/docs/tutorial/introduction)
+- [Building Multi-Agent Systems](https://microsoft.github.io/autogen/docs/tutorial/conversation-patterns)
 
 ### Video Content
 - [Semantic Kernel Introduction](https://www.youtube.com/watch?v=pJMZRBfRQeg)
@@ -45,9 +62,12 @@ A curated collection of resources for learning about Agentic AI and Semantic Ker
 - [Semantic Kernel Samples (Python)](https://github.com/microsoft/semantic-kernel/tree/main/python/samples)
 - [Semantic Kernel Samples (C#)](https://github.com/microsoft/semantic-kernel/tree/main/dotnet/samples)
 - [Semantic Kernel Samples (Java)](https://github.com/microsoft/semantic-kernel/tree/main/java/samples)
+- [AutoGen Examples](https://github.com/microsoft/autogen/tree/main/notebook)
+- [Azure AI Foundry Samples](https://github.com/Azure-Samples/azureai-samples)
 
 ### Community Projects
 - [Semantic Kernel Awesome List](https://github.com/microsoft/semantic-kernel/discussions/categories/show-and-tell)
+- [AutoGen Community Projects](https://github.com/microsoft/autogen/discussions/categories/show-and-tell)
 - [Community Plugins](https://github.com/topics/semantic-kernel)
 
 ## 📚 Books and Papers
@@ -82,8 +102,9 @@ A curated collection of resources for learning about Agentic AI and Semantic Ker
 
 ### Related Frameworks
 - [LangChain](https://python.langchain.com/) - Alternative AI framework
-- [AutoGen](https://microsoft.github.io/autogen/) - Multi-agent framework
+- [AutoGen](https://microsoft.github.io/autogen/) - Multi-agent framework (Microsoft Agent Framework)
 - [LlamaIndex](https://www.llamaindex.ai/) - Data framework for LLMs
+- [Prompt Flow](https://microsoft.github.io/promptflow/) - LLM application development tool integrated with Azure AI Foundry
 
 ### Testing Tools
 - [Prompt Flow](https://microsoft.github.io/promptflow/) - LLM application development
